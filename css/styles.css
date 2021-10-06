@@ -218,7 +218,7 @@ textarea {
   z-index: 3;
 }
 .is-hidden {
-  opacity: 0;
+  opacity: 1;
   pointer-events: none;
   visibility: hidden;
 }
@@ -303,7 +303,7 @@ textarea {
 }
 .form-label-policy-text {
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 0.58;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -342,13 +342,13 @@ textarea {
   width: 18px;
   height: 18px;
 }
-.form-btn {
+.form-button {
   align-self: center;
   width: 200px;
   transition: 250ms var(--timing-function);
 }
-.form-btn:hover,
-.form-btn:focus {
+.form-button:hover,
+.form-button:focus {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .hero-close-button {
